@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>TableLayputPanelTop</RootNamespace>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Company>TravelByPaul.com</Company>
+    <Copyright>Copyright @2022 TravelByPaul.com</Copyright>
+    <RepositoryUrl>https://github.com/paul1956/TableLayoutPanelTop</RepositoryUrl>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.0.1</Version>
+    <ApplicationIcon>LayoutPanel.ico</ApplicationIcon>
+    <OptionStrict>On</OptionStrict>
+    <OptionCompare>Text</OptionCompare>
+    <OptionInfer>Off</OptionInfer>
+    <Title>TableLayoutPanelEx</Title>
+    <Authors>Paul Cohen</Authors>
+    <Description>Special TableLayoutPanel with 2 columns, 1 row with a Button and Label</Description>
+    <PackageProjectUrl>https://github.com/paul1956/TableLayoutPanelTop</PackageProjectUrl>
+    <PackageIcon>LayoutPanel.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Custom Control; TableLayoutPanel</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>ReadMe.MD</PackageReadmeFile>
+    <NeutralLanguage>en-US</NeutralLanguage>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="LayoutPanel.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\ReadMe.MD">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="TableLayputPanelTop.vb">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LayoutPanel.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
