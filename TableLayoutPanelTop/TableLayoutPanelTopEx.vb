@@ -7,11 +7,20 @@
 
     Public Sub New()
         MyBase.New
-        Me.Button1 = New Button
+        Me.Button1 = New Button With {
+            .AutoSize = True,
+            .Location = New Point(6, 6),
+            .Name = "Button1",
+            .Size = New Size(142, 25),
+            .TabIndex = 0,
+            .Text = "Return To Summary Tab"
+        }
+        Me.Button1.Font = New Font(Me.Button1.Font.FontFamily, 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         _label = New Label
+        _label.Font = New Font(_label.Font.FontFamily, 12.0F, FontStyle.Bold, GraphicsUnit.Point)
         Me.AutoSize = True
         Me.AutoSizeMode = AutoSizeMode.GrowAndShrink
-        Me.CellBorderStyle = TableLayoutPanelCellBorderStyle.InsetDouble
+        Me.CellBorderStyle = TableLayoutPanelCellBorderStyle.None
         Me.ColumnCount = 2
         Me.ColumnStyles.Add(New ColumnStyle())
         Me.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 100.0!))
@@ -24,13 +33,6 @@
         Me.RowStyles.Add(New RowStyle())
         Me.Size = New Size(1364, 37)
         Me.TabIndex = 1
-
-        Me.Button1.AutoSize = True
-        Me.Button1.Location = New Point(6, 6)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New Size(142, 25)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Return To Summary Tab"
 
         _label.AutoSize = True
         _label.Dock = DockStyle.Fill

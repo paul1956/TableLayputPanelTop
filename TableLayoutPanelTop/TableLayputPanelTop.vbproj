@@ -2,16 +2,16 @@
 
   <PropertyGroup>
     <RootNamespace>TableLayputPanelTop</RootNamespace>
-    <TargetFrameworks>net6.0-windows;net7.0-windows</TargetFrameworks>
+    <TargetFramework>net7.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Company>TravelByPaul.com</Company>
     <Copyright>Copyright @2022 TravelByPaul.com</Copyright>
     <RepositoryUrl>https://github.com/paul1956/TableLayoutPanelTop</RepositoryUrl>
-    <AssemblyVersion>1.0.0.2</AssemblyVersion>
+    <AssemblyVersion>1.0.0.3</AssemblyVersion>
     <PackageReleaseNotes>Add support for .Net 6 and 7</PackageReleaseNotes>
-    <FileVersion>1.0.0.2</FileVersion>
-    <Version>1.0.0.2</Version>
+    <FileVersion>1.0.0.3</FileVersion>
+    <Version>1.0.0.3</Version>
     <ApplicationIcon>LayoutPanel.ico</ApplicationIcon>
     <OptionStrict>On</OptionStrict>
     <OptionCompare>Text</OptionCompare>
