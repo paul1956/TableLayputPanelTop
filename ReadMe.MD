@@ -14,4 +14,4 @@ Version 17.12.0 Preview 1.0
   - dotnet-core
 
 ## Updated
-- 07/20/2024
+- 08/20/2024
