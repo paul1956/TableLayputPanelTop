@@ -2,8 +2,8 @@
 - This is a custom control based on a TableLayoutPanel with 1 row and 2 columns. The first column has a Button and the other has a Label.
 
 ## Requires for development
-- Visual Studio 2022 Version 17.3.0 Preview 2.0 or later
-- .NET Core 6.0.6 or later
+Microsoft Visual Studio Community 2022 (64-bit) - Preview
+Version 17.12.0 Preview 1.0
 - Windows 10 or later
 
 ## License
@@ -14,4 +14,4 @@
   - dotnet-core
 
 ## Updated
-- 07/27/2023
+- 07/20/2024

@@ -1,4 +1,6 @@
-﻿Public Class TableLayoutPanelTopEx
+﻿Imports System.ComponentModel
+
+Public Class TableLayoutPanelTopEx
     Inherits TableLayoutPanel
 
     Private WithEvents Button1 As Button
@@ -48,6 +50,7 @@
 
     Public Event ButtonClick(sender As Object, e As EventArgs)
 
+    <DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)>
     Public Property ButtonText As String
         Get
             Return Me.Button1.Text
@@ -57,6 +60,7 @@
         End Set
     End Property
 
+    <DesignerSerializationVisibility(DesignerSerializationVisibility.Hidden)>
     Public Property LabelText As String
         Get
             Return _label.Text

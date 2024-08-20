@@ -26,7 +26,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.TableLayoutPanelTopEx1 = New TableLayputPanelTop.TableLayoutPanelTopEx()
+        Me.TableLayoutPanelTopEx1 = New TableLayoutPanelTop.TableLayoutPanelTopEx()
         Me.SuspendLayout()
         ' 
         ' TableLayoutPanelTopEx1
@@ -60,5 +60,5 @@ Partial Class Form1
         Me.PerformLayout()
     End Sub
 
-    Friend WithEvents TableLayoutPanelTopEx1 As TableLayputPanelTop.TableLayoutPanelTopEx
+    Friend WithEvents TableLayoutPanelTopEx1 As TableLayoutPanelTop.TableLayoutPanelTopEx
 End Class
